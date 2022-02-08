@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yellowtail&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header span {
+  display: flex;
+  align-items: center;
+}
+
+header h3 {
+  color: rgb(0, 0, 90);
+  cursor: default;
+  font-size: 18px;
+  margin: 20px 10px 20px 20px;
+}
+
+header #info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 205px;
+  margin-right: 10px;
+}
+
+header #info a {
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+header #info li {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+header #info li:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 191, 72);
+}
+
+header #info .contact {
+  margin-left: 10px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  border: 1px grey solid;
+  font-size: 10px;
+}
+
+header #info .contact:hover {
+  color: orange;
+  border: coral 1px solid;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+header .contactmenu.active {
+  background-color: rgb(255, 166, 0);
+  height: 40px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+header div ul {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+header div ul.active {
+  display: flex;
+}
+
+header div ul li {
+  list-style: none;
+}
+
+header div ul li a img {
+  width: 20px;
+  margin-left: 15px;
+  border-radius: 2px;
+}
+
+main {
+  text-align: center;
+}
+
+main h2 {
+  color: orange;
+  font-size: 30px;
+}
+
+main #projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+main #projects div {
+  margin: 20px 30px;
+  position: relative;
+}
+
+main #projects div h5 {
+  cursor: default;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(0, 0, 90);
+}
+
+main #projects div img {
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+#links {
+  display: none;
+}
+
+#links.active {
+  display: flex;
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+}
+
+#netflix #links {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#paytm #links {
+  background-color: rgba(44, 202, 255, 0.5);
+}
+
+#quote #links {
+  background-color: rgba(137, 43, 226, 0.5);
+}
+
+#first #links {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+#brewberry #links {
+  background-color: rgba(255, 166, 0, 0.7);
+}
+
+#links a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 70px;
+  border-radius: 10px;
+  margin: 30px 40px 0px 40px;
+}
+
+#netflix #links a:hover {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+#paytm #links a:hover {
+  background-color: rgba(44, 202, 255, 0.8);
+}
+
+#quote #links a:hover {
+  background-color: rgba(137, 43, 226, 0.8);
+}
+
+#first #links a:hover {
+  background-color: rgba(0, 0, 255, 0.8);
+}
+
+#brewberry #links a:hover {
+  background-color: rgba(255, 166, 0, 0.8);
+}
+
+div #links a img {
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+}
